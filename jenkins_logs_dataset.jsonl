@@ -1,0 +1,35 @@
+{"source":"jenkins","message":"Build finished successfully","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Checkout from git completed","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Unit tests passed","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Archiving artifacts","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Finished: SUCCESS","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Using cache for Docker layer","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Stage 'Test' completed","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Post-build actions completed","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Workspace cleaned","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Publishing JUnit test report","label":"normal","type":"normal"}
+{"source":"jenkins","message":"Cannot contact node 'agent-5'","label":"anomalous","type":"agent_offline"}
+{"source":"jenkins","message":"Agent agent-12 is offline","label":"anomalous","type":"agent_offline"}
+{"source":"jenkins","message":"channel closed","label":"anomalous","type":"agent_offline"}
+{"source":"jenkins","message":"Connection reset by peer","label":"anomalous","type":"agent_offline"}
+{"source":"jenkins","message":"computer\/agent-7\/log: connection lost","label":"anomalous","type":"agent_offline"}
+{"source":"jenkins","message":"OutOfMemoryError: Java heap space","label":"anomalous","type":"memory_threads"}
+{"source":"jenkins","message":"GC overhead limit exceeded","label":"anomalous","type":"memory_threads"}
+{"source":"jenkins","message":"Too many open threads","label":"anomalous","type":"memory_threads"}
+{"source":"jenkins","message":"Thread stuck in class hudson.remoting","label":"anomalous","type":"memory_threads"}
+{"source":"jenkins","message":"java.lang.OutOfMemoryError: unable to create new native thread","label":"anomalous","type":"memory_threads"}
+{"source":"jenkins","message":"Build #220 stuck in queue","label":"anomalous","type":"stuck_build"}
+{"source":"jenkins","message":"Executor on agent-3 is not responding","label":"anomalous","type":"stuck_build"}
+{"source":"jenkins","message":"Waiting for next available executor","label":"anomalous","type":"stuck_build"}
+{"source":"jenkins","message":"Pipeline paused for input but no response","label":"anomalous","type":"stuck_build"}
+{"source":"jenkins","message":"Stage 'Deploy' timed out waiting for executor","label":"anomalous","type":"stuck_build"}
+{"source":"jenkins","message":"No space left on device while writing to workspace","label":"anomalous","type":"disk_full"}
+{"source":"jenkins","message":"Failed to save build artifacts: No space left","label":"anomalous","type":"disk_full"}
+{"source":"jenkins","message":"Disk quota exceeded on \/var\/jenkins_home","label":"anomalous","type":"disk_full"}
+{"source":"jenkins","message":"Error writing to \/var\/lib\/docker: no space left on device","label":"anomalous","type":"disk_full"}
+{"source":"jenkins","message":"Cannot create temp file in workspace: No space left on device","label":"anomalous","type":"disk_full"}
+{"source":"jenkins","message":"java.lang.NoSuchMethodError: PluginX missing method doSomething","label":"anomalous","type":"plugin_update_error"}
+{"source":"jenkins","message":"IncompatibleClassChangeError after plugin upgrade","label":"anomalous","type":"plugin_update_error"}
+{"source":"jenkins","message":"Pipeline failed due to missing dependency after update","label":"anomalous","type":"plugin_update_error"}
+{"source":"jenkins","message":"ERROR: Plugin Y requires Jenkins 2.452 but found 2.401","label":"anomalous","type":"plugin_update_error"}
+{"source":"jenkins","message":"ClassNotFoundException after updating junit plugin","label":"anomalous","type":"plugin_update_error"}

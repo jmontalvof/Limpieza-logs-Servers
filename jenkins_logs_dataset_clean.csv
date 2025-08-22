@@ -1,0 +1,36 @@
+source,message,label,type,cleaned_message
+jenkins,Build finished successfully,normal,normal,Build finished successfully
+jenkins,Checkout from git completed,normal,normal,Checkout from git completed
+jenkins,Unit tests passed,normal,normal,Unit tests passed
+jenkins,Archiving artifacts,normal,normal,Archiving artifacts
+jenkins,Finished: SUCCESS,normal,normal,Finished: SUCCESS
+jenkins,Using cache for Docker layer,normal,normal,Using cache for Docker layer
+jenkins,Stage 'Test' completed,normal,normal,Stage ' <STR> ' completed
+jenkins,Post-build actions completed,normal,normal,Post-build actions completed
+jenkins,Workspace cleaned,normal,normal,Workspace cleaned
+jenkins,Publishing JUnit test report,normal,normal,Publishing JUnit test report
+jenkins,Cannot contact node 'agent-5',anomalous,agent_offline,Cannot contact node ' <STR> '
+jenkins,Agent agent-12 is offline,anomalous,agent_offline,agent-<ID> is offline
+jenkins,channel closed,anomalous,agent_offline,channel closed
+jenkins,Connection reset by peer,anomalous,agent_offline,Connection reset by peer
+jenkins,computer/agent-7/log: connection lost,anomalous,agent_offline,computer<PATH> connection lost
+jenkins,OutOfMemoryError: Java heap space,anomalous,memory_threads,OutOfMemoryError: Java heap space
+jenkins,GC overhead limit exceeded,anomalous,memory_threads,GC overhead limit exceeded
+jenkins,Too many open threads,anomalous,memory_threads,Too many open threads
+jenkins,Thread stuck in class hudson.remoting,anomalous,memory_threads,Thread stuck in class hudson.remoting
+jenkins,java.lang.OutOfMemoryError: unable to create new native thread,anomalous,memory_threads,java.lang.OutOfMemoryError: unable to create new native thread
+jenkins,Build #220 stuck in queue,anomalous,stuck_build,build #<N> stuck in queue
+jenkins,Executor on agent-3 is not responding,anomalous,stuck_build,Executor on agent-<ID> is not responding
+jenkins,Waiting for next available executor,anomalous,stuck_build,Waiting for next available executor
+jenkins,Pipeline paused for input but no response,anomalous,stuck_build,Pipeline paused for input but no response
+jenkins,Stage 'Deploy' timed out waiting for executor,anomalous,stuck_build,Stage ' <STR> ' timed out waiting for executor
+jenkins,No space left on device while writing to workspace,anomalous,disk_full,No space left on device while writing to workspace
+jenkins,Failed to save build artifacts: No space left,anomalous,disk_full,Failed to save build artifacts: No space left
+jenkins,Disk quota exceeded on /var/jenkins_home,anomalous,disk_full,Disk quota exceeded on <PATH>
+jenkins,Error writing to /var/lib/docker: no space left on device,anomalous,disk_full,Error writing to <PATH> no space left on device
+jenkins,Cannot create temp file in workspace: No space left on device,anomalous,disk_full,Cannot create temp file in workspace: No space left on device
+jenkins,java.lang.NoSuchMethodError: PluginX missing method doSomething,anomalous,plugin_update_error,java.lang.NoSuchMethodError: PluginX missing method doSomething
+jenkins,IncompatibleClassChangeError after plugin upgrade,anomalous,plugin_update_error,IncompatibleClassChangeError after plugin upgrade
+jenkins,Pipeline failed due to missing dependency after update,anomalous,plugin_update_error,Pipeline failed due to missing dependency after update
+jenkins,ERROR: Plugin Y requires Jenkins 2.452 but found 2.401,anomalous,plugin_update_error,ERROR: Plugin Y requires Jenkins 2.452 but found 2.401
+jenkins,ClassNotFoundException after updating junit plugin,anomalous,plugin_update_error,ClassNotFoundException after updating junit plugin

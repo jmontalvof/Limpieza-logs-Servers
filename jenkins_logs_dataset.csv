@@ -1,0 +1,36 @@
+source,message,label,type
+jenkins,Build finished successfully,normal,normal
+jenkins,Checkout from git completed,normal,normal
+jenkins,Unit tests passed,normal,normal
+jenkins,Archiving artifacts,normal,normal
+jenkins,Finished: SUCCESS,normal,normal
+jenkins,Using cache for Docker layer,normal,normal
+jenkins,Stage 'Test' completed,normal,normal
+jenkins,Post-build actions completed,normal,normal
+jenkins,Workspace cleaned,normal,normal
+jenkins,Publishing JUnit test report,normal,normal
+jenkins,Cannot contact node 'agent-5',anomalous,agent_offline
+jenkins,Agent agent-12 is offline,anomalous,agent_offline
+jenkins,channel closed,anomalous,agent_offline
+jenkins,Connection reset by peer,anomalous,agent_offline
+jenkins,computer/agent-7/log: connection lost,anomalous,agent_offline
+jenkins,OutOfMemoryError: Java heap space,anomalous,memory_threads
+jenkins,GC overhead limit exceeded,anomalous,memory_threads
+jenkins,Too many open threads,anomalous,memory_threads
+jenkins,Thread stuck in class hudson.remoting,anomalous,memory_threads
+jenkins,java.lang.OutOfMemoryError: unable to create new native thread,anomalous,memory_threads
+jenkins,Build #220 stuck in queue,anomalous,stuck_build
+jenkins,Executor on agent-3 is not responding,anomalous,stuck_build
+jenkins,Waiting for next available executor,anomalous,stuck_build
+jenkins,Pipeline paused for input but no response,anomalous,stuck_build
+jenkins,Stage 'Deploy' timed out waiting for executor,anomalous,stuck_build
+jenkins,No space left on device while writing to workspace,anomalous,disk_full
+jenkins,Failed to save build artifacts: No space left,anomalous,disk_full
+jenkins,Disk quota exceeded on /var/jenkins_home,anomalous,disk_full
+jenkins,Error writing to /var/lib/docker: no space left on device,anomalous,disk_full
+jenkins,Cannot create temp file in workspace: No space left on device,anomalous,disk_full
+jenkins,java.lang.NoSuchMethodError: PluginX missing method doSomething,anomalous,plugin_update_error
+jenkins,IncompatibleClassChangeError after plugin upgrade,anomalous,plugin_update_error
+jenkins,Pipeline failed due to missing dependency after update,anomalous,plugin_update_error
+jenkins,ERROR: Plugin Y requires Jenkins 2.452 but found 2.401,anomalous,plugin_update_error
+jenkins,ClassNotFoundException after updating junit plugin,anomalous,plugin_update_error
